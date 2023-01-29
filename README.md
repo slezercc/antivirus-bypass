@@ -1,6 +1,6 @@
 # Windows-Defender-Bypass
 Fully undetectable bypass for Windows Defender. Works by adding an exclusion for exe files, downloading your file and removing the exclusion after running the file.
-# This project is intended for research purposes only.
+# This project is intended for research/educational purposes only.
 # Setup
 If you already have a webserver, skip to step 2.  
   
