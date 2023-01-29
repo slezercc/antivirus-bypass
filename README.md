@@ -1,5 +1,5 @@
-# Windows-Defender-Bypass
-Fully undetectable bypass for Windows Defender. Works by adding an exclusion for exe files, downloading your file and removing the exclusion after running the file.
+# Windows Defender Bypass
+Fully undetectable bypass for Windows Defender and every other antivirus (FUD at the moment). Works by downloading a bat file that adds an exclusion for exe files, and then downloads your file and runs it.
 # This project is intended for research/educational purposes only.
 # Setup
 If you already have a webserver, skip to step 2.  
